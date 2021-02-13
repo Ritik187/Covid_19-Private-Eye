@@ -8,15 +8,15 @@ const deaths_element = document.querySelector(".deaths .value");
 const new_deaths_element = document.querySelector(".deaths .new-value");
 
 let ind;
-// let country_code = geoplugin_countryCode();
+let country_code = geoplugin_countryCode();
 let user_country;
-// console.log(country_code);
-// country_list.forEach((country) => {
-//   if (country.code == country_code) {
-//     // console.log("first");
-//     user_country = country.name;
-//   }
-// });
+console.log(country_code);
+country_list.forEach((country) => {
+  if (country.code == country_code) {
+    // console.log("first");
+    user_country = country.name;
+  }
+});
 
 const country=[];
 const cases_list = [];
