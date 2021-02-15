@@ -8,7 +8,7 @@ const deaths_element = document.querySelector(".deaths .value");
 const new_deaths_element = document.querySelector(".deaths .new-value");
 
 let ind;
-let country_code = geoplugin_countryCode();
+// let country_code = geoplugin_countryCode();
 let user_country='India';
 // console.log(country_code);
 // country_list.forEach((country) => {
